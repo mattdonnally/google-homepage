@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    background: white;
+    height: 100%;
+}
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+    a:hover {
+        text-decoration: underline;
+    }
+#nav a {
+    margin-right: 20px;
+}
+#nav a.topimage {
+    width: 20px;
+    height: 20px;
+    background: blue;
+    border-radius: 10px;
+}
+#middle {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#logo {
+    text-align: center;
+    margin-top: 200px;
+}
+#searchbarcontainer {
+    margin-top: 50px;
+    text-align: center;
+}
+#searchbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 420px;
+    border-radius: 15px;
+    border: 2px solid #eeeeee;
+}
+#searchbar: {
+    box-shadow: 0 0 10px 2px #black;
+}
+#buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.button {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    background: #eeeeee;
+}
+#links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+#footer-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: flex-start; 
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Advertising {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Business {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.HSW {
+    margin-left: 10px;
+    margin-right: 10px;
+}
